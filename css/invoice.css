@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@500&display=swap');
+
+:root {
+    --main: #DF7E2E;
+    --font: #FAF7F5;
+    --bg: #E9D0BB;
+    --hover: #AC530B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+}
+
+main {
+    max-width: 100%;
+    padding: 20px;
+    height: 708px;
+    background-color: var(--main);
+}
+
+.logo-box {
+    display: flex;
+    background-color: var(--font);
+    color: var(--main);
+    align-items: center;
+    justify-content: space-around;
+    width: 675px;
+    border-radius: 12px;
+    border-bottom: var(--main) dashed;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+.content {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    padding: 10px 50px;
+}
+
+th {
+    margin: 0 auto;
+    padding: 10px 0;
+    border-bottom: var(--main) dashed;
+}
+
+tr, td {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.container {
+    margin: 100px auto;
+    width: 50%;
+
+}
+
+.box {
+    width: 675px;
+    background-color: var(--font);
+    border-radius: 12px;
+}
+
+.top-cont {
+    text-align: left;
+    padding: 50px;
+}
+
+.col1 {
+    text-align: left;
+}
+
+.col2 {
+    text-align: center;
+}
+.col3 {
+    text-align: center;
+}
+
+.col4 {
+    text-align: right;
+}
+
+.total {
+    font-size: 24px;
+}
